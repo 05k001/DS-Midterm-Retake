@@ -4,6 +4,7 @@
 #include "dsexceptions.h"
 #include <vector>
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 // BinaryHeap class
@@ -65,6 +66,11 @@ class BinaryHeap
         cout << array[i] << " , ";
       }
       }
+    }
+
+    int HeapHeight( ) const {
+
+        return log2(array.size());
     }
     
     /**

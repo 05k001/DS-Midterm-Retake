@@ -43,6 +43,8 @@ int main() {
 
 	H.printHeap(); 
 
+	cout << endl << H.HeapHeight();
+
 
 
 
